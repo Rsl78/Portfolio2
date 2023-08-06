@@ -75,8 +75,6 @@ body {
     height: 200px;
     width: 200px;
     text-align: left;
-
-
 }
 
 .mission {
@@ -93,4 +91,60 @@ body {
     background-color: #FFF4D6;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.dev-limits {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 60px 150px;
+    padding-left: 10%;
+    padding-top: 5%;
+    display: flex;
+}
+
+.dev-limits-img img {
+    height: 400px;
+    width: 400px;
+}
+
+.dev-limits-img {
+
+    width: 30%;
+
+
+}
+
+.dev-limits-context {
+    padding-left: 70px;
+    padding-right: 10%;
+}
+
+.dev-limits-context h2 {
+    font-weight: bolder;
+}
+
+.global-community {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 1275px;
+    background-position-y: 380px;
+
+}
+
+.global-community-img {
+    width: 30%;
+    padding-right: 10%;
+    padding-left: 5%;
+
+}
+
+.global-community-img img {
+    height: 400px;
+    width: 400px;
+
 }
