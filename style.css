@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .half-width {
@@ -128,10 +130,11 @@ body {
     display: flex;
     padding-left: 10%;
     padding-top: 5%;
+    padding-bottom: 5%;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 10%;
-    background-position-x: 1275px;
+    background-position-x: 1290px;
     background-position-y: 380px;
 
 }
@@ -147,4 +150,16 @@ body {
     height: 400px;
     width: 400px;
 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
 }
